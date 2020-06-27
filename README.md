@@ -1,2 +1,3 @@
 # peopleDetect
-Opencv test
+
+Stream Camera and detect face.

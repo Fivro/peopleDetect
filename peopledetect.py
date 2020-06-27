@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 import sys
-face_cascade_path = '/Users/hirotanaka/opt/miniconda3/envs/peopleDetect/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml'
-eye_cascade_path = '/Users/hirotanaka/opt/miniconda3/envs/peopleDetect/share/OpenCV/haarcascades/haarcascade_eye.xml'
+face_cascade_path = 'haarcascades/haarcascade_frontalface_default.xml'
+eye_cascade_path = 'haarcascades/haarcascade_eye.xml'
 
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
